@@ -1,0 +1,7 @@
+# requirements.txt
+pandas
+pyarrow
+openai
+boto3
+# Necesario para que Pandas pueda leer/escribir en S3 (aunque no lo uses localmente, es clave para AWS)
+s3fs
